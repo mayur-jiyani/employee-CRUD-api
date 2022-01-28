@@ -1,6 +1,7 @@
 # employee-CRUD-api
 
-To create table
+- Node + MySQL
+- To create table
 
 ```bash
 CREATE TABLE `empdata` (
@@ -9,5 +10,5 @@ CREATE TABLE `empdata` (
   `employee_salary` double NOT NULL COMMENT 'employee salary',
   `employee_age` int NOT NULL COMMENT 'employee age',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='datatable demo table'
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='datatable demo table'
 ```
